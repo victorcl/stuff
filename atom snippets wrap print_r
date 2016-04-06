@@ -3,4 +3,4 @@ Snippet that wraps php print_r() function into <pre> tags
 '.source.php':
   'print_r wrapped in <pre>':
     'prefix': 'echop'
-    'body': 'echo "<pre>";\r\nprint_r($1);\r\necho "</pre>";'
+    'body': 'echo "<pre>";\r\nprint_r($$1);\r\necho "</pre>";'

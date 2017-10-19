@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-console.log(${1});'</pre>';
+console.log(${1});
 ]]></content>
     <description>JS: Easy console.log</description>
     <scope>source.js</scope>
